@@ -6,5 +6,5 @@ Feature: User is able to login and logout from Webmate
   When User enter "<Email>" and "<Password>"
   Then Verify user is logged in 
   Examples:
-  |Email					|Password    |
+  |Email |Password    |
   |rverma@dmic.com|Testing@321!|
